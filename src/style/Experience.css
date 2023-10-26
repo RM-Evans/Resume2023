@@ -1,0 +1,29 @@
+.experienceList {
+  list-style: none;
+  padding: 0 5vw 0;
+}
+
+.job {
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 0 0 16px;
+}
+
+.dateRange {
+  color: #9baec0;
+}
+
+.roleTitle {
+  color: #84d9bf;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 0 0 16px;
+}
+
+.roleDescription {
+  color: #9baec0;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 0 0 32px;
+}

@@ -1,0 +1,42 @@
+.mobileNavbarContainer {
+  background: #1b2537;
+  position: fixed;
+  top: 50vh;
+  height: 500px;
+  width: 100vw;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileNavbar {
+  border: olive 0px solid;
+  height: 100%;
+  text-align: center;
+}
+
+.homeLink,
+.resumeLink {
+  font-size: 50px;
+  padding: 20px 0 0;
+  /* text-decoration: underline;
+  text-decoration-color: white; */
+}
+
+/* .resumeLink {
+  font-size: 28px;
+} */
+
+.navbarHamburgerBtn {
+  position: fixed;
+  top: 85%;
+  left: 76%;
+
+  z-index: 11;
+}
+
+@media screen and (min-width: 601px) {
+  .mobileNavbarComponent {
+    display: none;
+  }
+}

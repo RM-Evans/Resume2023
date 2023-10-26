@@ -1,0 +1,22 @@
+.technologyLists {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.technologyLists > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.listTitle {
+  color: white;
+  padding: 0 0 10px;
+}
+
+.technologyLists > ul > li {
+  display: flex;
+  color: #84d9bf;
+}

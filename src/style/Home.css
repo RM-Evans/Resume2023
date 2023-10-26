@@ -1,0 +1,122 @@
+.homeContainer {
+  max-width: 570px;
+  /* border: white 1px solid; */
+
+  /* margin-left: 8vw; */
+
+  position: relative;
+  top: 25vh;
+}
+
+.firstSection {
+  display: flex;
+  height: calc(100vh - 200px);
+  width: 100%;
+  padding-left: 5vw;
+}
+
+.firstSectionText {
+  max-width: 570px;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 300;
+}
+
+/* 
+@keyframes h1 {
+  0% {
+    transform: scale(1);
+    display: inline-block;
+    background-color: transparent;
+  }
+  100% {
+    transform: scale(1.03);
+    display: inline-block;
+    background-color: transparent;
+  }
+}
+
+h1:hover {
+  transform: scale(1.03);
+  animation: h1 0.6s ease-in-out;
+} */
+
+h1,
+.homeSkillsText {
+  color: white;
+}
+
+.homeSkillsSubheading,
+.homeSkillsText {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.homeSkillsSubheading,
+.homeShortDescription {
+  color: #9baec0;
+}
+
+.homeShortDescription {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .homeContainer {
+    max-width: 90vw;
+    /* height: 80vh; */
+    position: relative;
+    top: 25vh;
+  }
+  /* first section overlap */
+  .firstSection {
+    padding-top: 45px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  .homeSkillsSubheading,
+  .homeSkillsText {
+    font-size: 25px;
+  }
+  .homeShortDescription {
+    max-width: 85vw;
+    font-size: 20px;
+  }
+}
+
+.aboutContainer {
+  height: 100vh;
+  width: 100vw;
+  color: #9baec0;
+}
+
+.aboutHeading {
+  color: white;
+}
+
+.aboutHeading,
+.aboutBody {
+  padding: 20px 5vw 0;
+  line-height: 1.8;
+  text-indent: 20px;
+  font-weight: 200;
+}
+
+.experienceContainer {
+  height: 100vh;
+  width: 100vw;
+}
+/* .technologiesContainer {
+  width: 100vw;
+} */
+
+.experienceHeading {
+  padding: 0 5vw 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+}
